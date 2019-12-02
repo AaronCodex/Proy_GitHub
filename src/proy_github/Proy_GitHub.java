@@ -11,7 +11,13 @@ package proy_github;
  */
 public class Proy_GitHub {
 
-    static String Proy_GitHub(String valor1, String valor2) {
+    /**
+     * 
+     * @param valor1 la nota que queremos sacar
+     * @param valor2 la nota que vamos a sacar
+     * @return devuelve el veredicto
+     */
+    private static String Proy_GitHub(String valor1, String valor2) {
         if (valor1.equals(valor2)) {
             return "Perfecto. Has tenido buen criterio.";
         }
